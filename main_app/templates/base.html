@@ -16,12 +16,12 @@
     <nav>
       <ul>
         {% if user.is_authenticated %}
-          <li><a href="">About</a></li>
-          <li><a href="">All Reflections</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'memories_index' %}">All Reflections</a></li>
           <li><a href="">Capture Moment</a></li>
           <li><a href="">Log Out</a></li>
         {% else %}
-          <li><a href="">About</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
           <li><a href="{% url 'signup' %}">Sign Up</a></li> 
           <!--Check websites and possibly change the order of these two account-based links-->
           <li><a href="">Log In</a></li>

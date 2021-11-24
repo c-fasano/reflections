@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<!--Stylesheey-->
+{% endblock %}
+
+{% block content %}
+
+<section class="card-container">
+  {% for memory in memories %}
+    <div class="card"> <!--set the background to the logo-->
+      <div class="card-details">
+        <h2 class="card-title">{{ memory.name }}</h2>
+        <p>Where was I?: {{ memory.location }}</p>
+        <p>When was this?: {{ memory.date }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% endblock %}
