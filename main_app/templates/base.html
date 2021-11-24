@@ -14,9 +14,14 @@
   <header>
     <nav>
       <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">All Reflections</a></li>
-        <li><a href="">Capture Moment</a></li>
+        {% if user.is_authenticated %}
+          <li><a href="">About</a></li>
+          <li><a href="">All Reflections</a></li>
+          <li><a href="">Capture Moment</a></li>
+          <li><a href="">Log Out</a></li>
+        {% else %}
+          <li><a href="">About</a></li><li><a href="">Sign Up</a></li><li><a href="">Log In</a></li>
+        {% endif %}
       </ul>
     </nav>
   </header>
