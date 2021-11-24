@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right top, #65efc9, #6cdbeb);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
