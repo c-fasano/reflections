@@ -30,4 +30,9 @@ def about(request):
   return render(request, 'about/html')
 
 def memories_index(request):
+  memories = Memory.objects.all()
   return render(request, 'memories/index.html', { 'memories': memories })
+
+def memories_detail(request, memory_id):
+  memory = Memory.objects.get(id=memory_id)
+  return render(request, 'memories/detial.html', { 'memory': memory })
