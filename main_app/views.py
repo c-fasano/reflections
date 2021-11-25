@@ -29,7 +29,7 @@ def signup(request):
   return render(request, 'signup.html', context)
 
 def about(request):
-  return render(request, 'about/html')
+  return render(request, 'about.html')
 
 def memories_index(request):
   memories = Memory.objects.all()

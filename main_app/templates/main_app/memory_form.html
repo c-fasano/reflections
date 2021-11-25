@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<!--Stylesheet-->
+{% endblock %}
+
+<h1>Capture moment</h1>
+
+
+<form action="" method="post" class="form-container">
+  {% csrf_token %}
+  <table>
+    {{ form.as_table }}
+  </table>
+  <button type="submit" class="btn submit">Submit!</button>
+</form>
+
+{% endblock %}
