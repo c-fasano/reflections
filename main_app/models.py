@@ -8,6 +8,7 @@ class Memory(models.Model):
   name = models.CharField(max_length=100)
   location = models.CharField(max_length=100)
   date = models.DateField('date of memory')
+  details = models.TextField(max_length=1000, default='')
   user = models.ForeignKey(User, on_delete=models.CASCADE)
 
   def __str__(self):
