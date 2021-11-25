@@ -4,7 +4,9 @@ from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic.edit import CreateView
 from .models import Memory
+
 
 # Create your views here.
 
@@ -36,3 +38,7 @@ def memories_index(request):
 def memories_detail(request, memory_id):
   memory = Memory.objects.get(id=memory_id)
   return render(request, 'memories/detial.html', { 'memory': memory })
+
+class MemoryCreate(CreateView):
+  model = Memory
+  fields = '__all__'

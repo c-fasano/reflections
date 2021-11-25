@@ -18,7 +18,7 @@
         {% if user.is_authenticated %}
           <li><a href="{% url 'about' %}">About</a></li>
           <li><a href="{% url 'memories_index' %}">All Reflections</a></li>
-          <li><a href="">Capture Moment</a></li>
+          <li><a href="{% url 'memories_create' %}">Capture Moment</a></li>
           <li><a href="">Log Out</a></li>
         {% else %}
           <li><a href="{% url 'about' %}">About</a></li>
