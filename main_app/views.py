@@ -41,4 +41,4 @@ def memories_detail(request, memory_id):
 
 class MemoryCreate(CreateView):
   model = Memory
-  fields = '__all__'
+  fields = ['name', 'location', 'date']
