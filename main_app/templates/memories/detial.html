@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<!--Stylesheet-->
+{% endblock %}
+
+{% block content %}
+
+<section class="memory-detail">
+  <div class="memory-crad">
+    <h1>{{ memory.name }}</h1>
+    <h2>{{ memory.date }}</h2>
+    <h2>{{ memory.location }}</h2>
+  </div>
+</section>
+
+{% endblock %}
