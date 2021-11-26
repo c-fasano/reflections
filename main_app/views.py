@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 from django.contrib.auth.views import LoginView
 from django.contrib.auth import login
@@ -6,6 +7,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import CreateView, UpdateView
 from .models import Memory
+
 
 
 # Create your views here.
@@ -33,11 +35,11 @@ def about(request):
 
 def memories_index(request):
   memories = Memory.objects.all()
-  return render(request, 'memories/index.html', { 'memories': memories })
+  return render(request, 'memories/index.html', {'memories': memories})
 
 def memories_detail(request, memory_id):
   memory = Memory.objects.get(id=memory_id)
-  return render(request, 'memories/detial.html', { 'memory': memory })
+  return render(request, 'memories/detail.html', { 'memory': memory })
 
 class MemoryCreate(CreateView):
   model = Memory

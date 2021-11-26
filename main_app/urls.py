@@ -8,5 +8,5 @@ urlpatterns = [
   path('memories/', views.memories_index, name='memories_index'),
   path('memories/<int:memory_id>/', views.memories_detail, name='memories_detail'),
   path('memories/create', views.MemoryCreate.as_view(), name='memories_create'),
-  path('memories/<int:pk>/update/', views.MemoryUpdate.as_view(), name='memories_update')
+  path('memories/<int:pk>/update', views.MemoryUpdate.as_view(), name='memories_update')
 ]
