@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reflections</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
   {% block head %}
   {% endblock %}
@@ -18,6 +20,7 @@
         {% if user.is_authenticated %}
           <li><a href="{% url 'about' %}">About</a></li>
           <li><a href="{% url 'memories_index' %}">All Reflections</a></li>
+          <h1>Reflections</h1>
           <li><a href="{% url 'memories_create' %}">Capture Moment</a></li>
           <li><a href="">Log Out</a></li>
         {% else %}
