@@ -43,7 +43,7 @@ def memories_detail(request, memory_id):
 
 class MemoryCreate(CreateView):
   model = Memory
-  fields = ['name', 'location', 'date']
+  fields = ['name', 'location', 'date', 'details']
 
   def form_valid(self, form):
     form.instance.user = self.request.user
