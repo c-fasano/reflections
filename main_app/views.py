@@ -33,7 +33,7 @@ def about(request):
   return render(request, 'about.html')
 
 def memories_index(request):
-  memories = Memory.objects.all()
+  memories = Memory.objects.filter(user=request.user)
   return render(request, 'memories/index.html', {'memories': memories})
 
 def memories_detail(request, memory_id):
