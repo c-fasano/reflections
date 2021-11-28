@@ -1,0 +1,14 @@
+main {
+  min-height: 80vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+}
+
