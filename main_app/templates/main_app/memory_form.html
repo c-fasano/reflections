@@ -2,7 +2,12 @@
 {% load static %}
 
 {% block head %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/form.css' %}">{% endblock %}
+<link href="https://cdn.jsdelivr.net/npm/mc-datepicker/dist/mc-calendar.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="{% static 'css/mcdp.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/mc-datepicker/dist/mc-calendar.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/form.css' %}">
+<script defer src="{% static 'js/mem-detail.js' %}"></script>
+{% endblock %}
 
 {% block content %}
 
