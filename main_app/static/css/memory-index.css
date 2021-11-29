@@ -1,7 +1,9 @@
 .card-container {
   display: flex;
   align-items: center;
-  justify-content: column;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -20,7 +22,7 @@
 .card a {
   text-decoration: none;
   color: antiquewhite;
-  font-family: Srisakdi;
+  font-family: "Srisakdi";
 }
 
 
