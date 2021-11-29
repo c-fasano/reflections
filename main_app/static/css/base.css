@@ -44,10 +44,18 @@ nav a {
 nav ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 nav li {
   padding: 6px 13px;
+}
+
+.nav-title {
+  display: inline;
+}
+
+.account{
+  align-self: flex-end;
 }
