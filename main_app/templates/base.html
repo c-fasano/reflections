@@ -20,12 +20,12 @@
         {% if user.is_authenticated %}
           <li><a href="{% url 'about' %}">About</a></li>
           <li><a href="{% url 'memories_index' %}">All Reflections</a></li>
-          <h1>Reflections</h1>
+          <h1 class="title">Reflections</h1>
           <li><a href="{% url 'memories_create' %}">Capture Moment</a></li>
           <li><a href="{% url 'logout' %}">Log Out</a></li>
         {% else %}
           <li><a href="{% url 'about' %}">About</a></li>
-          <h1>Reflections</h1>
+          <h1 class="title">Reflections</h1>
           <li><a href="{% url 'home' %}">Log In</a></li>
           <li><a href="{% url 'signup' %}">Sign Up</a></li> 
         {% endif %}

@@ -1,14 +1,41 @@
-main {
-  min-height: 80vh;
-  width: 60%;
+#main {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.intro {
-  min-height: 80vh;
-  width: 400px;
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+.still {
+  min-height: 75vh;
+  width: 45%;
+  background: url("https://media.istockphoto.com/photos/water-texture-picture-id146894620?b=1&k=20&m=146894620&s=170667a&w=0&h=deKuJEmmYsrDC7Z5bIxgQ1LkWDXSQdmj7q_60m_9OUI=") no-repeat, center;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
+.glass {
+  min-height: 75vh;
+  width: 45%;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+  z-index: 2;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.intro {
+  min-height: 100vh;
+  width: 100%;
+  background: url("https://media.istockphoto.com/photos/water-texture-picture-id146894620?b=1&k=20&m=146894620&s=170667a&w=0&h=deKuJEmmYsrDC7Z5bIxgQ1LkWDXSQdmj7q_60m_9OUI=") no-repeat, center;
+  background-size: cover;
+}
+
+.description h2 {
+  height: 20%;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 20px;
+  background: white;
+  text-align: center;
+}

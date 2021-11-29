@@ -10,9 +10,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(to right top, #65efc9, #6cdbeb);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
 }
 
 h1 {
