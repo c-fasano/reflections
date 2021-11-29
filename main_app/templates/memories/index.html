@@ -8,7 +8,7 @@
 
 <section class="card-container">
   {% for memory in memories %}
-    <div class="card"> <!--set the background to the logo-->
+    <div class="card">
       <a href="{% url 'memories_detail' memory.id %}">
         <div class="card-details">
           <h2 class="card-title">{{ memory.name }}</h2>

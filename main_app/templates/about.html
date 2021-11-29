@@ -3,19 +3,22 @@
 
 {% block head %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+<script  defer src="{% static 'js/app.js' %}"></script>
 {% endblock %}
 
 {% block content %}
-
-<div id="primary" class="intro">
-  <section class="still">
-    <div class="description">
-      <h2>Let's Reflect</h2>
-      <p>Life is full of moments worth remembering. Often those moments only exist as a thought when they are suddenly remembered. The purpose of reflections is to provide a place to store those moments when they happen, a place to reflect on those moments, and a place to share them with others.</p>
-    </div>
-    <img class="logo-header" src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 250px;">
-  </section>
-  <div class="glass"></div>
+<div class="primary">
+  <div class="intro">
+    <section class="still">
+      <div class="description">
+        <h2>Let's Reflect</h2>
+        <p>Life is full of moments worth remembering. Often those moments only exist as a thought when they are suddenly remembered. The purpose of reflections is to provide a place to store those moments when they happen, a place to reflect on those moments, and a place to share them with others.</p>
+      </div>
+      <img class="logo-header" src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 250px;">
+    </section>
+    <div class="glass"></div>
+  </div>
 </div>
-
 {% endblock %}
