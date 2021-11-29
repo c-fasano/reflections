@@ -11,11 +11,12 @@ html {
 body {
   margin: 0;
   padding: 0;
+  margin-top: -22px;
 }
 
 .water {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url('https://media.istockphoto.com/photos/water-texture-picture-id146894620?b=1&k=20&m=146894620&s=170667a&w=0&h=deKuJEmmYsrDC7Z5bIxgQ1LkWDXSQdmj7q_60m_9OUI=') no-repeat center;
   background-size: cover;
 }
@@ -26,6 +27,7 @@ h1 {
 
 header {
 background-color: black;
+height: 10%;
 }
 
 nav {
