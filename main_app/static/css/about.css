@@ -34,7 +34,9 @@
   z-index: 3;
 }
 
-
+.description h2 {
+  font-family: "Cinzel Decorative";
+}
 
 .logo-header {
   z-index: 3;
