@@ -64,6 +64,18 @@ section {
   font-weight: bolder;
 }
 
+#id_username {
+  font-family: "Metal";
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(2, 43, 15);
+}
+
+#id_password {
+  font-size: 1rem;
+  color: rgb(2, 43, 15);
+}
+
 .back {
   min-height: 60%;
   width: 60%;
