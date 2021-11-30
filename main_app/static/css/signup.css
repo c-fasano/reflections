@@ -1,11 +1,36 @@
-.signup-container {
+section {
+  min-height: 60%;
+  width: 60%;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
 
-.signup-form {
-  height: 60vh;
+.login {
+  min-height: 60%;
   width: 60%;
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 3;
+  margin-top: 5%;
+  margin-left: -45%;
+  position: absolute;
+}
+
+.clear {
+  min-height: 60%;
+  width: 60%;
+  bottom: 20%;
+  background: url("https://i.imgur.com/XqRehBY.jpg") no-repeat, center;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 20%;
 }

@@ -9,7 +9,7 @@
 {% block content %}
 
 <div class="something">
-  <h1>Sign Up</h1>
+  
 </div>
 
 {% if error_message %}
@@ -17,6 +17,7 @@
 {% endif %}
 <section class="signup-container">
   <form action="" method="post" class="signup-form" autocomplete="off">
+    <h1>Sign Up</h1>
     {% csrf_token %}
     <table>
       {{ form.as_table }}
@@ -25,4 +26,7 @@
   </form>
 </section>
 
+<section class="clear">
+  <div class="glass2"></div>
+</section>
 {% endblock %}
