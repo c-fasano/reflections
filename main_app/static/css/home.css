@@ -35,6 +35,15 @@ section {
   font-family: "Metal";
 }
 
+.login input {
+  width: 100px;
+  transition: width 0.8s ease-in-out;
+}
+
+.login input:focus {
+  width: 65%
+}
+
 .back {
   min-height: 60%;
   width: 60%;
@@ -52,7 +61,7 @@ section {
 .glasses {
   min-height: 100%;
   width: 100%;
-  background: linear-gradient(to top, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+  background: linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.4));
   background-size: cover;
   z-index: 2;
   position: absolute;
