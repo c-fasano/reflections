@@ -26,21 +26,15 @@
     <nav>
       <ul>
         {% if user.is_authenticated %}
-          <li><a href="{% url 'about' %}">About</a></li>
-          <li><a href="{% url 'memories_index' %}">All Reflections</a></li>
-          <li><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"><h1>Reflections<img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></h1></li>
-          {% comment %} <li><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></li>
-          <li><h1>Reflections</h1></li>
-          <li><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></li> {% endcomment %}
-          <li><a href="{% url 'memories_create' %}">Capture Moment</a></li>
-          <li><a href="{% url 'logout' %}">Log Out</a></li>
+          <li class="about"><a href="{% url 'about' %}">About</a></li>
+          <li class="all"><a href="{% url 'memories_index' %}">All Reflections</a></li>
+          <li class="nav-title"><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"><h1>Reflections<img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></h1></li>
+          <li class="create"><a href="{% url 'memories_create' %}">Capture Moment</a></li>
+          <li class="account-in"><a href="{% url 'logout' %}">Log Out</a></li>
         {% else %}
-          <li><a href="{% url 'about' %}">About</a></li>
-          <li><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></li>
-          <li><h1>Reflections</h1></li>
-          <li><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></li>
-          <li><a class="account" href="{% url 'home' %}">Log In</a></li>
-          <li><a class="account" href="{% url 'signup' %}">Sign Up</a></li> 
+          <li class="about"><a href="{% url 'about' %}">About</a></li>
+          <li class="nav-title"><img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"><h1>Reflections<img src="https://i.imgur.com/XqRehBY.jpg" alt="" style="width: 75px;"></h1></li>
+          <li><a class="account-out" href="{% url 'home' %}">Log In&nbsp;&nbsp;</a><a class="account-out" href="{% url 'signup' %}">&nbsp;&nbsp;Sign Up</a></li>
         {% endif %}
       </ul>
     </nav>

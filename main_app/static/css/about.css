@@ -48,13 +48,13 @@
   height: 10%;
   font-family: "Kaushan Script";
   text-align: center;
-  font-size: 3rem;
+  font-size: 4vw;
 }
 
 .description p {
   height: 40%;
   font-family: "Metal";
-  font-size: 1.5rem;
+  font-size: 2vw;
   line-height: 2.5rem;
   font-weight: bold;
 }
