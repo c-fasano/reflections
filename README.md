@@ -18,7 +18,18 @@ There were numerous factors that contributed to the development of Reflections.
 - There is no greater way to see ones own growth than to reflect on where they were at some point in the past. 
 
 
+### Technologies Used
+1. Python
+2. Django
+3. Django.html
+4. CSS
+5. JS
+6. J-Query
+7. Postgresql
 
+### Attributions
+1. Google Fonts 
+2. 
 
 
 
