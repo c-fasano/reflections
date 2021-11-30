@@ -28,7 +28,7 @@ section {
   font-size: 5vw;
   font-weight: bolder;
   margin-left: 70vw; /*COME BACK TO THIS*/
-  margin-top: -5vh;
+  margin-top: -10vh;
   position: absolute;
 }
 
@@ -38,43 +38,43 @@ section {
   width: 60vw;
   margin-left: 50vw;
   color: rgb(47, 6, 65);
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-family: "Metal";
   position: absolute;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 th {
   color: rgb(47, 6, 65);
-  font-size: 1.5rem;
+  font-size: 2vw;
   text-align: center;
-  margin-left: 50%;
+  /* margin-left: 50%; */
 }
 
 .create-form input {
-  width: 50%;
+  width: 5vw;
   transition: width 0.8s ease-in-out;
   background-color: rgba(255,255,255,0);
   border: none;
   box-shadow: 0px 5px 15px -5px white;
   font-family: "Metal";
   color: rgb(2, 43, 15);
-  font-size: 1rem;
+  font-size: 1vw;
   font-weight: bolder;
-  margin-bottom: 50px;
-  margin-right: 50%;
-  position: absolute;
+  margin-bottom: 1vh;
+  /* margin-right: 50%; */
+  display: inline block;
 }
 
 .create-form input:focus {
-  width: 100%;
+  width: 30vw;
   outline: none;
 }
 
 .clear1 {
   height: 60vh;
   width: 60vw;
-  bottom: 20%;
+  bottom: 20vh;
   background: url("https://i.imgur.com/XqRehBY.jpg") no-repeat, center;
   background-size: cover;
   position: absolute;
@@ -82,7 +82,7 @@ th {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  left: 20%;
+  left: 20vw;
 }
 
 .glass3 {
@@ -95,8 +95,8 @@ th {
 }
 
 .create-form button {
-  width: 15%;
-  margin-top: 10%;
+  width: 15vw;
+  margin-top: 35vh;
   font-size: 2.5rem;
   color: rgb(199, 12, 115);
   font-family: "Metal";
@@ -105,23 +105,24 @@ th {
   border-radius: 25px;
   box-shadow: 0px 5px 15px -5px white;
   font-weight: bolder;
-  margin-left: 50%;
+  margin-left: 80vw;
+  position: absolute;
 }
 
 .create-form textarea {
-  width: 50%;
-  height: 200px;
+  width: 15vw;
+  height: 20vh;
   transition: width 0.8s ease-in-out;
   background-color: rgba(255,255,255,0);
   border: none;
   box-shadow: 0px 5px 15px -5px white;
   font-family: "Metal";
   color: rgb(2, 43, 15);
-  font-size: 1rem;
+  font-size: 1rvw;
   font-weight: bolder;
 }
 
 .create-form textarea:focus {
-  width: 100%;
+  width: 25vw;
   outline: none;
 }
