@@ -8,7 +8,7 @@ section {
   margin: 0 auto;
 }
 
-.login {
+.signup-form {
   min-height: 60%;
   width: 60%;
   display: flex;
@@ -19,6 +19,13 @@ section {
   margin-top: 5%;
   margin-left: -45%;
   position: absolute;
+}
+
+.signup-form h1 {
+  color:rgb(4, 14, 70);
+  font-family: "Kaushan Script";
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
 .clear {
@@ -33,4 +40,13 @@ section {
   align-items: center;
   justify-content: center;
   left: 20%;
+}
+
+.glass2 {
+  min-height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+  background-size: cover;
+  z-index: 2;
+  position: absolute;
 }
