@@ -64,3 +64,11 @@ nav li {
 main {
   margin-bottom: 5vh;
 }
+
+nav .all {
+  margin-right: -15vw;
+}
+
+nav .create {
+  margin-left: -10vw;
+}
