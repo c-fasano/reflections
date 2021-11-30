@@ -41,6 +41,17 @@ section {
 th {
   color: rgb(47, 6, 65);
   font-size: 1.5rem;
+  margin-right: 5%;
+  text-align: start;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.helptext {
+  list-style: none;
 }
 
 .signup-form input {
