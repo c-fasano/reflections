@@ -11,9 +11,9 @@
     <div class="card">
       <a href="{% url 'memories_detail' memory.id %}">
         <div class="card-details">
-          <h2 class="card-title">{{ memory.name }}</h2>
-          <p>When was this?: {{ memory.date }}</p>
-          <p>Where was I?: {{ memory.location }}</p>
+          <h1 class="card-title">{{ memory.name }}</h1>
+          <p class="when">When?: {{ memory.date }}</p>
+          <p class="where">Where?: {{ memory.location }}</p>
         </div>
       </a>
     </div>
