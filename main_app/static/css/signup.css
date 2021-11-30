@@ -1,6 +1,6 @@
 section {
-  min-height: 60%;
-  width: 60%;
+  height: 60vh;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,8 +9,8 @@ section {
 }
 
 .signup-form {
-  min-height: 60%;
-  width: 90%;
+  height: 60vh;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -24,24 +24,28 @@ section {
 .signup-form h1 {
   color:rgb(4, 14, 70);
   font-family: "Kaushan Script";
-  font-size: 3.5rem;
+  font-size: 3.5vw;
   font-weight: bolder;
+  position: absolute;
+  margin-left: 42vw;
+  margin-top: -10vh;
 }
 
 .signup-form table {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin-left: 50%;
+  width: 60vw;
+  margin-left: 50vw;
   color: rgb(47, 6, 65);
-  font-size: 1rem;
+  font-size: 1vw;
   font-family: "Metal";
+  position: absolute;
 }
 
 th {
   color: rgb(47, 6, 65);
-  font-size: 1.5rem;
-  margin-right: 5%;
+  font-size: 1vw;
+  margin-right: 3vw;
   text-align: start;
 }
 
@@ -55,7 +59,7 @@ tr {
 }
 
 .signup-form input {
-  width: 100px;
+  width: 5vw;
   transition: width 0.8s ease-in-out;
   background-color: rgba(255,255,255,0);
   border: none;
@@ -64,13 +68,14 @@ tr {
 }
 
 .signup-form input:focus {
-  width: 65%;
+  width: 15vw;
   outline: none;
 }
 
 .signup-form button {
-  margin-top: 1%;
-  font-size: 2.5rem;
+  margin-top: 40vh;
+  margin-left: 42vw;
+  font-size: 2vw;
   color: rgb(199, 12, 115);
   font-family: "Metal";
   background-color: rgba(255,255,255,0);
@@ -78,28 +83,29 @@ tr {
   border-radius: 25px;
   box-shadow: 0px 5px 15px -5px white;
   font-weight: bolder;
+  position: absolute;
 }
 
 #id_username {
   font-family: "Metal";
-  font-size: 1rem;
+  font-size: 1vw;
   font-weight: bolder;
   color: rgb(2, 43, 15);
 }
 
 #id_password1 {
-  font-size: 1rem;
+  font-size: 1vw;
   color: rgb(2, 43, 15);
 }
 
 #id_password2 {
-  font-size: 1rem;
+  font-size: 1vw;
   color: rgb(2, 43, 15);
 }
 
 .clear {
-  min-height: 60%;
-  width: 60%;
+  min-height: 60vh;
+  width: 60vw;
   bottom: 20%;
   background: url("https://i.imgur.com/XqRehBY.jpg") no-repeat, center;
   background-size: cover;
@@ -108,7 +114,7 @@ tr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  left: 20%;
+  left: 20vw;
 }
 
 .glass2 {
