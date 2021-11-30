@@ -25,7 +25,7 @@
   color:rgb(4, 14, 70);
   font-family: "Kaushan Script";
   text-align: center;
-  font-size: 6vw;
+  font-size: 4vw;
   font-weight: bolder;
   margin-bottom: -1%;
   margin-top: -4%;
@@ -38,7 +38,7 @@
   width: 60vw;
   margin-left: 50vw;
   color: rgb(47, 6, 65);
-  font-size: 3vw;
+  font-size: 2vw;
   font-family: "Metal";
 }
 
@@ -50,7 +50,7 @@
 .memory-card .btn {
   margin-top: 1vw;
   margin-left: 90vw;
-  margin-top: 30vw;
+  margin-top: 20vw;
   font-size: 2.5rem;
   color: rgb(199, 12, 115);
   font-family: "Metal";
