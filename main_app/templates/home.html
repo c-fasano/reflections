@@ -8,8 +8,6 @@
 
 {% block content %}
 
-<!--Whatever else will go on this page-->
-
 {% if not user.is_authenticated %}
   <section>
     <form action="{% url 'home' %}" method="post" class="login">

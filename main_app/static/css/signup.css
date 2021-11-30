@@ -28,7 +28,7 @@ section {
   font-weight: bolder;
   position: absolute;
   margin-left: 42vw;
-  margin-top: -10vh;
+  margin-top: -5vh;
 }
 
 .signup-form table {
@@ -40,6 +40,7 @@ section {
   font-size: 1vw;
   font-family: "Metal";
   position: absolute;
+  margin-top: 5vh;
 }
 
 th {
