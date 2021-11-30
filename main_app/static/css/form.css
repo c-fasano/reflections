@@ -48,11 +48,6 @@ th {
   text-align: start;
 }
 
-/* tr {
-  display: flex;
-  flex-direction: column;
-} */
-
 .create-form input {
   width: 100px;
   transition: width 0.8s ease-in-out;
@@ -100,4 +95,18 @@ th {
   border-radius: 25px;
   box-shadow: 0px 5px 15px -5px white;
   font-weight: bolder;
+}
+
+.create-form textarea {
+  width: 50%;
+  transition: width 0.8s ease-in-out;
+  background-color: rgba(255,255,255,0);
+  border: none;
+  box-shadow: 0px 5px 15px -5px white;
+  font-weight: 1200;
+}
+
+.create-form textarea:focus {
+  width: 100%;
+  outline: none;
 }
