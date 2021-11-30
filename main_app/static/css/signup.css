@@ -50,7 +50,7 @@ tr {
   flex-direction: column;
 }
 
-.helptext {
+.helptext ul {
   list-style: none;
 }
 
@@ -66,6 +66,18 @@ tr {
 .signup-form input:focus {
   width: 65%;
   outline: none;
+}
+
+.signup-form button {
+  margin-top: 1%;
+  font-size: 2.5rem;
+  color: rgb(199, 12, 115);
+  font-family: "Metal";
+  background-color: rgba(255,255,255,0);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 15px -5px white;
+  font-weight: bolder;
 }
 
 .clear {
