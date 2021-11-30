@@ -12,8 +12,8 @@
     <h1>{{ memory.name }}</h1>
     <h2>{{ memory.date }}</h2>
     <h2>{{ memory.location }}</h2>
-    <h2>{{ memory.details }}</h2>
-    <a href="{% url 'memories_update' memory.id %}" class="btn warn">Edit</a>
+    <h2 class="description">{{ memory.details }}</h2>
+    <a href="{% url 'memories_update' memory.id %}" class="btn warn">&nbsp;Edit&nbsp;</a>
   </div>
 </section>
 
