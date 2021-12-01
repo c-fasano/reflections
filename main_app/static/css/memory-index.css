@@ -32,9 +32,10 @@
 
 .card h1{
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 2vw;
   color: rgb(4, 14, 70);
   margin-bottom: 35px;
+  width: 95%;
 }
 
 .card a {
@@ -45,14 +46,14 @@
 }
 
 .card .when {
-  font-size: 2rem;
+  font-size: 1.5vw;
   margin-top: -3%;
   color: rgb(47, 6, 65);
   font-weight: bolder;
 }
 
 .card .where {
-  font-size: 1.5rem;
+  font-size: 1vw;
   color: rgb(199, 12, 115);
   font-weight: 400;
 }
