@@ -32,15 +32,17 @@ def signup(request):
 def about(request):
   return render(request, 'about.html')
 
+@login_required
 def memories_index(request):
   memories = Memory.objects.filter(user=request.user)
   return render(request, 'memories/index.html', {'memories': memories})
 
+@login_required
 def memories_detail(request, memory_id):
   memory = Memory.objects.get(id=memory_id)
   return render(request, 'memories/detail.html', { 'memory': memory })
 
-class MemoryCreate(CreateView):
+class MemoryCreate(LoginRequiredMixin, CreateView):
   model = Memory
   fields = ['name', 'location', 'date', 'details']
 
@@ -48,6 +50,6 @@ class MemoryCreate(CreateView):
     form.instance.user = self.request.user
     return super().form_valid(form)
 
-class MemoryUpdate(UpdateView):
+class MemoryUpdate(LoginRequiredMixin, UpdateView):
   model = Memory
   fields = ['details']
