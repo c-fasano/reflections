@@ -15,7 +15,26 @@ Start writing your [Reflections:](https://memory-reflections.herokuapp.com/)
 ![Custom logo](main_app/static/images/ReflectionsLogo.jpeg)
 One of the first things I chose to develop for this project was a custom logo. This was a significant addition to this project as it added a piece of personalization. It also provided a good lesson in deciding where to use a logo throughout an application. 
 
+### Technologies Used 
+- Python 
+- Django
+- JS
+- J-Query
+- CSS
+- HTML
+- MC Datepicker
 
+### Attributions
+- Google Fonts 
+- MC Date Picker 
+
+### Future Plans / Icebox
+- Create a fully mobile friendly version 
+- Build out the user model so that user's can have distinct profiles / accounts 
+- Give users the ability to make their memories public or private 
+- Add a discussion / comments model so that users can communicate with one another
+- Give users the option to upload photos with their posts
+- Build out features for users to sort their reflections (date, type etc.)
 
 
 
