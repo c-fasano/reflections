@@ -1,3 +1,11 @@
+.collection {
+  font-family: "Metal";
+  color: rgb(4, 14, 70);
+  font-size: 4vw;
+  margin-top: -3vh;
+  margin-left: 36vw;
+}
+
 .card-container {
   display: flex;
   align-items: center;
