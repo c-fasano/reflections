@@ -1,35 +1,35 @@
 .mc-display__day {
   font-size:clamp(1.6rem, 8vw, 2rem);
-  color: red;
+  color:rgb(4, 14, 70);
 }
 
 .mc-display__date {
-  font-size:clamp(8rem, 40vw, 11.2rem);
-  color: orange;
+  font-size:clamp(4vw, 40vw, 6vw);
+  color: rgb(47, 6, 65);
 }
 
 .mc-display__month {
   font-size: clamp(1.9rem, 9vw, 2.4rem);
-  color: yellow;
+  color: rgb(47, 6, 65);
 }
 
 .mc-display__year {
   font-size: clamp(3.8rem,18vw,4.8rem);
-  color: green;
+  color: rgb(47, 6, 65);
 }
 
 .mc-select__data--month, .mc-select__data--month span {
   width: 40vw;
   min-width: 8rem;
   max-width: 10rem;
-  color: blue;
+  color:rgb(4, 14, 70);
 }
 
 .mc-select__data--year, .mc-select__data--year span {
   width: 22vw;
   min-width: 4.8rem;
   max-width: 5.6rem;
-  color: purple;
+  color:rgb(4, 14, 70);
 }
 
 .mc-select__data {
@@ -37,20 +37,26 @@
   color: lime;
 }
 
-.mc-btn--danger,
-.mc-btn--success,
+
 .mc-date,
 .mc-table__weekday {
   font-size: 1.6rem;
-  color: rgb(77, 144, 203);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0.5);
 }
 
 .mc-table__weekday {
   padding: .5rem;
-  color:aquamarine;
+  color: rgb(47, 6, 65);
 }
 
 .mc-picker__footer {
   padding: 1.6rem 0;
   color: grey;
+}
+
+.mc-btn--danger,
+.mc-btn--success {
+  font-size: 1.6rem;
+  color: rgb(199, 12, 115);
 }
