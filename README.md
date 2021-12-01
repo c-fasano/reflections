@@ -2,34 +2,11 @@
 
 ![Application Logo](main_app/static/images/ReflectionsLogo.jpeg)
 
-## What is this app for 
+Roughly seven years ago, a mentor of mine shared a recording of a commencement speech with me: ["This is Water" -David Foster Wallace.](https://www.youtube.com/watch?v=8CrOL-ydFMI) Understanding that I was in a difficult place, his goal in sharing this speech with me was simply to plant a seed of the possibility to think and view things differently. When I think back to that point in time, I can remember that this moment itself was significant; the scope of that significance however, is limited. 
 
-Reflections is an application where users can document and store significant moments of their lives. 
+As I began brainstorming ideas for this project, I came across that exact same speech. Almost immediately, I started to remember the speech and that moment when I had listened to it for the first time. Although I couldn'nt remember the impact that this speech had on me from 7 years prior, I knew that the impact it had in the present was vastly different. It was from this experience, that the concept for Reflections started to develop. 
 
-Though the central theme of Reflections is documenting moments of one's life, it is different from a typical daily journal in that Reflections is organized by moments or events. Each moment or event has a date attached to it but whether that date was yesterday or 5 years in the past, user's can easily access their original documentation and further it. 
-
-********        Insert a picture of the index View here ********
-
-## How did this app come to be
-There were numerous factors that contributed to the development of Reflections. 
-
-- I have often found myself guilty of overlooking successes, accomplishments or progress and winding up focused on should'ves, would'ves, and could'ves as well as the next task at hand. 
-- I heard a speech, ["This is Water" -David Foster Wallace,](https://www.youtube.com/watch?v=8CrOL-ydFMI) just before developing this application that I had heard roughly 7 years ago which had a significant impact on me. This made me think to myself about how powerful it would be to have a place to see my thoughts from 7 years ago and furthermore to build upon those thoughts with those from the present. The title of this speech also largely played into the theming and design of the website. 
-- There is no greater way to see ones own growth than to reflect on where they were at some point in the past. 
-
-
-### Technologies Used
-1. Python
-2. Django
-3. Django.html
-4. CSS
-5. JS
-6. J-Query
-7. Postgresql
-
-### Attributions
-1. Google Fonts 
-2. 
+Two of the most powerful tools for self-growth are journaling and self-reflection. Though it's hard to imagine something being easier than writing words on a piece of paper, Reflections goes beyond that in that the reusability is much greater. Instead of having to filter through books upon books, and pages upon pages to find my thoughts from a moment that occured 7 years ago, I can find and access that moment just as easy as one from yesterday with Reflections. Reflections stores self-documentation based on moments themselves and allows individuals to revisit those moments as well as contribute additional thoughts. 
 
 
 
